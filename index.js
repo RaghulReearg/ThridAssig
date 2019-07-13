@@ -28,3 +28,10 @@ for (var i = 0; i < radios.length; i++) {
     document.getElementById("choiceLabel").innerText = this.value;
   };
 }
+
+
+
+if (questionnum == questions.length - 1) {
+  document.getElementById("btn").innerHTML =
+    "<button class='mybtn'>Submit Answer</buttom>";
+}
